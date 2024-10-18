@@ -59,7 +59,7 @@ function LegalPerson () {
 
       </GridItem >
 
-      <GridItem size={{ xs: 12, md: 6, }}>
+      <GridItem size={{ xs: 12, md: 6, xl: 4 }}>
         <Paper elevation={1} sx={{ p: { xs: 1, md: 3 } }}>
           <Typography variant="h6">Total por Faixa Etária</Typography>
           <LineChart
